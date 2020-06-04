@@ -11,15 +11,5 @@
 <%= "Hello jsp" %>
 <%! public int x=22; %>
 <%= x %>
-<br>
-<%= new Integer(25) %>
-<br>
-<%= new String("Aayush") %>
-<br>
-<%= new java.util.Date() %>
-<br>
-<%=25*4 %>
-<br/>
-<%=54>5 %>
 </body>
 </html>

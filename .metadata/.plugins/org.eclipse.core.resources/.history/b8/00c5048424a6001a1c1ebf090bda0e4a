@@ -19,7 +19,5 @@
 <%= new java.util.Date() %>
 <br>
 <%=25*4 %>
-<br/>
-<%=54>5 %>
 </body>
 </html>
