@@ -29,3 +29,5 @@
 0:0:0:0:0:0:0:1 - - [03/Jun/2020:22:26:42 -0700] "GET /HelloJsp/HelloJsp.jsp HTTP/1.1" 200 232
 0:0:0:0:0:0:0:1 - - [03/Jun/2020:22:30:47 -0700] "GET /HelloJsp/HelloJsp.jsp HTTP/1.1" 200 245
 0:0:0:0:0:0:0:1 - - [03/Jun/2020:22:31:02 -0700] "GET /HelloJsp/HelloJsp.jsp HTTP/1.1" 200 245
+0:0:0:0:0:0:0:1 - - [03/Jun/2020:22:46:12 -0700] "GET /HelloJsp/HelloJsp.jsp HTTP/1.1" 200 246
+0:0:0:0:0:0:0:1 - - [03/Jun/2020:22:46:37 -0700] "GET /HelloJsp/HelloJsp.jsp HTTP/1.1" 200 246

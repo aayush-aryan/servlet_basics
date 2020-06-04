@@ -9,17 +9,19 @@
 <body>
 <h1>Hello JSP</h1>
 <%= "Hello jsp" %>
-<%! public int x=22; %>
-<%= x %>
-<br>
-<%= new Integer(25) %>
-<br>
-<%= new String("Aayush") %>
-<br>
-<%= new java.util.Date() %>
-<br>
-<%=25*4 %>
+<%
+int x = 52;
+if(x > 25){
+	out.print("x is greater than 25");
+}else
+	out.print("x is not greater than 25");
+%>
 <br/>
-<%=54>5 %>
+<%
+for(int i= 0;i<10;i++){
+	out.print("<br/>");
+	out.print(i);
+}
+%>
 </body>
 </html>
