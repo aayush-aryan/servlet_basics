@@ -9,19 +9,12 @@
 <body>
 <h1>Hello JSP</h1>
 <%= "Hello jsp" %>
-<%
-int x = 52;
-if(x > 25){
-	out.print("x is greater than 25");
-}else
-	out.print("x is not greater than 25");
-%>
-<br/>
-<%
-for(int i= 0;i<10;i++){
-	out.print("<br/>");
-	out.print(i);
+
+<%!
+String message(){
+	return "I like JSP";
 }
 %>
+<%= message() %>
 </body>
 </html>
